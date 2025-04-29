@@ -7,7 +7,7 @@ format: html
 Welcome! I’m a PhD student at [INCHER, University of Kassel](https://www.uni-kassel.de/forschung/incher/).
 
 - 📄 **[CV](./static/Hardaker_CV.pdf)**
-- 📧 adam@hardaker.com  ·  [GitHub](https://github.com/TalkToMeGoose)  ·  [ORCID](https://orcid.org/0000-0000-0000-0000)
+- 📧 m.a.hardaker@proton.me  ·  [GitHub](https://github.com/TalkToMeGoose)  ·  [ORCID](https://orcid.org/0000-0000-0000-0000)
 
 ```{=html}
 <hr/>
