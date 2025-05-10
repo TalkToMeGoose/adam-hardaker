@@ -1,5 +1,14 @@
 ---
-title: "About"
+title: "About Me"
 ---
+Here’s a bit about me, my research interests, and so on.
 
-About this site
+<!-- put your image right under the heading -->
+<p align="center">
+  <img 
+    src="assets/Adam.jpg" 
+    alt="Adam Hardaker" 
+    style="border-radius:50%; width:180px; height:180px; object-fit:cover;"/>
+</p>
+
+…and then your bio text continues here.

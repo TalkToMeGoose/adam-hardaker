@@ -1,13 +1,36 @@
 ---
 title: "Adam Hardaker"
-subtitle: "Economics · Causal ML · Higher‑Education Research"
+subtitle: "Doctoral Researcher at INCHER, University of Kassel"
 format: html
+
+resources:
+  - assets/Adam_Hardaker_CV.pdf 
+
+about:
+    template: solana
+    id: hero-heading
+    links: 
+      - text: "{{< fa envelope >}}"
+        href: mailto:adam.hardaker@uni-kassel.de
+      - text: "{{< iconify fa6-brands github >}}"
+        href: https://github.com/TalkToMeGoose
+      - text: "{{< iconify fa6-brands orcid >}}"
+        href: https://orcid.org/0009-0008-1200-0127
+      - text: "{{< iconify fa6-brands linkedin >}}"
+        href: https://www.linkedin.com/in/michael-adam-hardaker/  
+
 ---
 
-Welcome! I’m a PhD student at [INCHER, University of Kassel](https://www.uni-kassel.de/forschung/incher/).
+<br><br>
 
-- 📄 **[CV](./static/Hardaker_CV.pdf)**
-- 📧 m.a.hardaker@proton.me  ·  [GitHub](https://github.com/TalkToMeGoose)  ·  [ORCID](https://orcid.org/0000-0000-0000-0000)
 
-```{=html}
+::: {#hero-heading}
+
+I’m a Research Assistant and Doctoral Researcher at [INCHER, University of Kassel](https://www.uni-kassel.de/forschung/en/incher/). My **economics** research focuses on **causal machine learning** and **higher education**. CV [CV](Adam_Hardaker_CV.pdf){target="_blank"}
+
+[Learn more about me &rarr;](/about.html)
+
+:::
+<!-- hero-heading -->
+
 <hr/>

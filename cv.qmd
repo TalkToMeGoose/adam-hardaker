@@ -1,0 +1,11 @@
+---
+resources:
+  - assets/Adam_Hardaker_CV.pdf
+format:
+  html:
+    page-layout: article
+---
+
+<iframe src="assets/Adam_Hardaker_CV.pdf" width="100%" height="800px" frameborder="0"></iframe>
+
+<br/>

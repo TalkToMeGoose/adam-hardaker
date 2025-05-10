@@ -3,20 +3,55 @@ project:
   output-dir: docs
 
 website:
-  title: "mysite"
+  title: "Adam Hardaker"
+  site-url: https://adam-hardaker.com
+  description: "Economics Doctoral Researcher at INCHER, University of Kassel"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: blog/index.qmd
+        text: Blog
+      - href: about.qmd
+        text: About
+      - href: cv.qmd
+        text: CV
+    right:
+      - icon: envelope
+        href: mailto:adam.hardaker@uni-kassel.de
+      - text: "{{< iconify fa6-brands github >}}"
+        href: https://github.com/TalkToMeGoose
+      - text: "{{< iconify fa6-brands orcid >}}"
+        href: https://orcid.org/0009-0008-1200-0127
+      - text: "{{< iconify fa6-brands linkedin >}}"
+        href: https://www.linkedin.com/in/michael-adam-hardaker/  
+
+extensions:
+  - quarto-ext/fontawesome
+  - mcanouil/iconify
+
+page-footer:
+  left: >-
+     &#169; 2025 Adam Hardaker &#8729; Made with [Quarto](https://quarto.org)
+  center: |
+    <a class="link-dark me-1" href="https://linkedin.com/in/michael-adam-hardaker" title="LinkedIn" target="_blank" rel="noopener">{{< iconify fa6-brands linkedin >}}</a>
+    <a class="link-dark me-1" href="https://github.com/TalkToMeGoose" title="github" target="_blank" rel="noopener">{{< iconify fa6-brands github >}}</a>
+    <a class="link-dark me-1" href="https://orcid.org/0009-0008-1200-0127" title="orcid" target="_blank" rel="noopener">{{< iconify fa6-brands orcid >}}</a>
+
 
 format:
   html:
+    # switch to the new theme grouping
     theme:
-      - cosmo
-      - brand
-    css: styles.css
-    toc: true
-
-
-
+      light: 
+        - flatly
+      dark:  
+        - darkly
+    color-mode:
+      default:        light     # start light by default
+      toggle:         true      # show the ☾/☀ button
+      respect-system: true      # honor OS‐level preference
+    toc:     true
+    css:     styles.css
+    favicon: assets/favicon.ico
+    page-layout: article

@@ -1,1 +1,11 @@
 /* css styles */
+body, .quarto-navbar {
+    letter-spacing: 0;      /* zero extra spacing */
+    line-height: 1.6;        /* your chosen line-height */
+}
+
+/* optionally bump icon size to match text */
+.quarto-navbar i.fa {
+    font-size: 1.1em;
+    vertical-align: middle;
+}

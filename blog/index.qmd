@@ -1,0 +1,8 @@
+---
+title: "Blog"
+listing:
+  type: default
+  sort: "date desc"
+---
+
+Welcome to my research notes and project updates.
