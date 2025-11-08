@@ -1,24 +1,17 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Keep this page up to date with working papers, conference presentations, and peer-reviewed publications.\n\n\n\n\n\n\nUpdating the list\n\n\n\n\nEdit publications/_data/publications.md to add or remove entries.\nUse numbered lists for an automatically ordered bibliography.\nAdd badges or links (e.g., DOI, code, slides) directly in Markdown.\n\n\n\n\nAuthor, A., & Collaborator, B. (2024). Title of the article. Journal Name, 12(3), 123-145. https://doi.org/xx.xxxx/xxxxx"
+  },
+  {
+    "objectID": "index.html#what-im-working-on",
+    "href": "index.html#what-im-working-on",
     "title": "Adam Hardaker",
-    "section": "",
-    "text": "I’m a Research Assistant and Doctoral Researcher at INCHER, University of Kassel. My economics research focuses on causal machine learning and higher education. CV CV\nLearn more about me →"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About Me\nHere’s a bit about me, my research interests, and so on.\n\n\n\n\n…and then your bio text continues here."
-  },
-  {
-    "objectID": "blog/index.html",
-    "href": "blog/index.html",
-    "title": "Blog",
-    "section": "",
-    "text": "Welcome to my research notes and project updates.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlaceholder\n\n\n\n\n\n\n\n\nMay 10, 2025\n\n\n\n\n\nNo matching items"
+    "section": "What I’m Working On",
+    "text": "What I’m Working On\n\nProjects & prototypes — snapshots of ongoing AI experiments, data tooling, and collaborative builds.\nPublications — working papers, conference talks, and peer-reviewed articles.\nCV — full academic and professional history.\n\n\n\n\n\n\n\nIdeas for future additions\n\n\n\n\nA short “Research agenda” overview to give visitors context for upcoming work.\nOptional blog highlights or newsletter signup once you decide on a writing workflow.\nA media or talks section with recordings, slides, or interviews."
   },
   {
     "objectID": "blog/posts/2025-05-10-onet-ai.html",
@@ -28,10 +21,24 @@
     "text": "TODO: content"
   },
   {
-    "objectID": "cv.html",
-    "href": "cv.html",
-    "title": "Adam Hardaker",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
     "section": "",
-    "text": "Below is my full CV (downloadable here).\n\n\n\nDownload PDF ↗"
+    "text": "Here’s a bit about me, my research interests, and so on.\n\n\n\n\n…and then your bio text continues here."
+  },
+  {
+    "objectID": "blog/index.html",
+    "href": "blog/index.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Welcome to my research notes and project updates.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlaceholder\n\n\n\n\n\n\n\n\nMay 10, 2025\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Here you can keep track of the experiments, prototypes, and side projects that don’t quite fit into a formal publication yet.\n\n\n\n\n\n\nAdding a new project\n\n\n\n\nDuplicate _template.qmd in projects/entries/ and give it a descriptive name.\nUpdate the YAML header with the project title, optional thumbnail, and publication date.\nWrite a short summary in Markdown. You can embed code blocks, images, or external links as needed.\n\n\n\nThe listing below will automatically update whenever you add a new .qmd file to projects/entries/.\n\n\n\n\n\n\n\n\nNo matching items"
   }
 ]
