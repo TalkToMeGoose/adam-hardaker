@@ -1,0 +1,8 @@
+---
+title: "Writing"
+listing:
+  type: default
+  sort: "date desc"
+---
+
+Drafts in public—notes on research, methods, and whatever else I’m thinking through. Longer riffs often make their way to my [Substack](https://substack.com/@ahardaker).

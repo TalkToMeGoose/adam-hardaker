@@ -1,6 +1,8 @@
 ---
 title: "About Me"
 ---
-Here’s a bit about me, my research interests, and so on.
+I am a doctoral researcher at the University of Kassel’s International Center for Higher Education Research (INCHER), where I study the economics of academic mobility and the systems that shape research careers. My work combines data engineering, econometrics, and machine learning, building large-scale pipelines that link dissertations, publication databases, and institutional records across Europe.
 
-…and then your bio text continues here.
+Before academia, I spent eight years as a U.S. Army aviation officer and Blackhawk pilot. Since then, I have worked at the intersection of research and technology, from building decentralized startup programs at the IOTA Foundation to developing entity-resolution models for million-record datasets.
+
+Outside of research, I can be seen administrating Rugby Cassel as club president and tinkering with programming projects.

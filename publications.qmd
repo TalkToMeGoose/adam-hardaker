@@ -1,6 +1,0 @@
----
-title: "Publications"
-format: html
----
-
-{{< include publications/_data/publications.md >}}

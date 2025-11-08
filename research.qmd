@@ -1,0 +1,6 @@
+---
+title: "Research"
+format: html
+---
+
+{{< include research/_data/publications.md >}}

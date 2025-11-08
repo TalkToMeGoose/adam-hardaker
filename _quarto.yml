@@ -10,12 +10,12 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: blog/index.qmd
-        text: Ideas
-      - href: projects/index.qmd
-        text: Experiments
-      - href: publications.qmd
-        text: Publications
+      - href: research.qmd
+        text: Research
+      - href: writing/index.qmd
+        text: Writing
+      - href: side-quests/index.qmd
+        text: Side Quests
       - href: about.qmd
         text: About
       - href: cv.qmd
@@ -59,5 +59,5 @@ format:
       respect-system: true      # honor OS‐level preference
     toc:     true
     css:     styles.css
-    favicon: assets/favicon.ico
+    favicon: assets/favicon.svg
     page-layout: article
