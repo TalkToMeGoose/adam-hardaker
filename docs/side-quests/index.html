@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Writing – Adam Hardaker</title>
+<title>Side Quests – Adam Hardaker</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -84,9 +84,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: [{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
+      searchColumns: [],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -320,15 +320,15 @@ window.Quarto = {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../publications.html"> 
+    <a class="nav-link" href="../research.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../blog/index.html" aria-current="page"> 
+    <a class="nav-link" href="../writing/index.html"> 
 <span class="menu-text">Writing</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../projects/index.html"> 
+    <a class="nav-link active" href="../side-quests/index.html" aria-current="page"> 
 <span class="menu-text">Side Quests</span></a>
   </li>  
   <li class="nav-item">
@@ -383,7 +383,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Writing</h1>
+<h1 class="title">Side Quests</h1>
 </div>
 
 
@@ -400,35 +400,32 @@ window.Quarto = {
 </header>
 
 
-<p>Drafts in public—notes on research, methods, and whatever else I’m thinking through. Longer riffs often make their way to my <a href="https://substack.com/@ahardaker">Substack</a>.</p>
-
-
-
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="cmVzZWFyY2glMkNkYXRhLW5vdGVz" data-listing-date-sort="1746828000000" data-listing-file-modified-sort="1746875603474" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
-<div class="thumbnail"><a href="../blog/posts/2025-05-10-onet-ai.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../blog/posts/2025-05-10-onet-ai.html" class="no-external">Placeholder</a>
-</h3>
-<div class="delink listing-description"><a href="../blog/posts/2025-05-10-onet-ai.html" class="no-external">
-TODO: content
-</a></div>
+<p>Here’s where I stash side quests—prototypes, hacks, and collaborations that don’t quite fit a formal publication yet.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
 </div>
-<div class="metadata">
-<a href="../blog/posts/2025-05-10-onet-ai.html" class="no-external">
-<div class="listing-date">
-May 10, 2025
-</div>
-</a>
+<div class="callout-title-container flex-fill">
+Adding a new side quest
 </div>
 </div>
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li>Duplicate <code>_template.qmd</code> in <code>side-quests/entries/</code> and give it a descriptive name.</li>
+<li>Update the YAML header with the side quest title, optional thumbnail, and publication date.</li>
+<li>Write a short summary in Markdown. You can embed code blocks, images, or external links as needed.</li>
+</ol>
+</div>
+</div>
+<p>The listing below will automatically update whenever you add a new <code>.qmd</code> file to <code>side-quests/entries/</code>.</p>
+
+
+
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-3">
+
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div></main> <!-- /main -->
