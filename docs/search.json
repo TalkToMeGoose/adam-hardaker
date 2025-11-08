@@ -11,7 +11,7 @@
     "href": "side-quests/index.html",
     "title": "Side Quests",
     "section": "",
-    "text": "Here’s where I stash side quests—prototypes, hacks, and collaborations that don’t quite fit a formal publication yet.\n\n\n\n\n\n\nAdding a new side quest\n\n\n\n\nDuplicate _template.qmd in side-quests/entries/ and give it a descriptive name.\nUpdate the YAML header with the side quest title, optional thumbnail, and publication date.\nWrite a short summary in Markdown. You can embed code blocks, images, or external links as needed.\n\n\n\nThe listing below will automatically update whenever you add a new .qmd file to side-quests/entries/.\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "No matching items"
   },
   {
     "objectID": "index.html",

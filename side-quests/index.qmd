@@ -8,14 +8,3 @@ listing:
   max-items: 12
   page-size: 12
 ---
-
-Here’s where I stash side quests—prototypes, hacks, and collaborations that don’t quite fit a formal publication yet.
-
-::: {.callout-tip}
-## Adding a new side quest
-1. Duplicate `_template.qmd` in `side-quests/entries/` and give it a descriptive name.
-2. Update the YAML header with the side quest title, optional thumbnail, and publication date.
-3. Write a short summary in Markdown. You can embed code blocks, images, or external links as needed.
-:::
-
-The listing below will automatically update whenever you add a new `.qmd` file to `side-quests/entries/`.
