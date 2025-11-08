@@ -34,3 +34,16 @@ I’m a Research Assistant and Doctoral Researcher at [INCHER, University of Kas
 <!-- hero-heading -->
 
 <hr/>
+
+## What I'm Working On
+
+- [Projects & prototypes](projects/index.qmd) &mdash; snapshots of ongoing AI experiments, data tooling, and collaborative builds.
+- [Publications](publications.qmd) &mdash; working papers, conference talks, and peer-reviewed articles.
+- [CV](Adam_Hardaker_CV.pdf){target="_blank"} &mdash; full academic and professional history.
+
+::: {.callout-note}
+### Ideas for future additions
+- A short "Research agenda" overview to give visitors context for upcoming work.
+- Optional blog highlights or newsletter signup once you decide on a writing workflow.
+- A media or talks section with recordings, slides, or interviews.
+:::

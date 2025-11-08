@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#e9ecef"/>
+  <g font-family="'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif" fill="#495057" text-anchor="middle">
+    <text x="400" y="290" font-size="48" font-weight="600">Project Snapshot</text>
+    <text x="400" y="350" font-size="24">Add an image for your project</text>
+  </g>
+</svg>

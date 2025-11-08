@@ -12,6 +12,10 @@ website:
         text: Home
       - href: blog/index.qmd
         text: Blog
+      - href: projects/index.qmd
+        text: Projects
+      - href: publications.qmd
+        text: Publications
       - href: about.qmd
         text: About
       - href: cv.qmd
