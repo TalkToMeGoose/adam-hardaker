@@ -1,0 +1,21 @@
+---
+title: "Projects"
+listing:
+  contents: entries
+  type: grid
+  sort: "date desc"
+  image-placeholder: assets/project-placeholder.svg
+  max-items: 12
+  page-size: 12
+---
+
+Here you can keep track of the experiments, prototypes, and side projects that don't quite fit into a formal publication yet.
+
+::: {.callout-tip}
+## Adding a new project
+1. Duplicate `_template.qmd` in `projects/entries/` and give it a descriptive name.
+2. Update the YAML header with the project title, optional thumbnail, and publication date.
+3. Write a short summary in Markdown. You can embed code blocks, images, or external links as needed.
+:::
+
+The listing below will automatically update whenever you add a new `.qmd` file to `projects/entries/`.

@@ -1,0 +1,23 @@
+---
+title: "Project Title"
+date: 2025-01-01
+categories: [ai, research]
+image: ../../assets/project-placeholder.svg
+slug: project-title
+summary: "One-sentence summary of what this project explores."
+draft: true
+---
+
+## TL;DR
+
+Write a short paragraph describing the problem, what you built, and the current status. Once you are ready to publish, remove the `draft: true` line.
+
+## Highlights
+
+- What makes this interesting
+- Any key results or metrics
+- Links to the repo or demo
+
+## Next steps
+
+Sketch out potential follow-ups, TODOs, or ideas you want to try.
