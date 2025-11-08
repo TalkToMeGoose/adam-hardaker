@@ -3,13 +3,4 @@ title: "Publications"
 format: html
 ---
 
-Keep this page up to date with working papers, conference presentations, and peer-reviewed publications.
-
-::: {.callout-tip}
-## Updating the list
-- Edit `publications/_data/publications.md` to add or remove entries.
-- Use numbered lists for an automatically ordered bibliography.
-- Add badges or links (e.g., DOI, code, slides) directly in Markdown.
-:::
-
 {{< include publications/_data/publications.md >}}

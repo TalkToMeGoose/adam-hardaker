@@ -26,24 +26,9 @@ about:
 
 ::: {#hero-heading}
 
-I’m a Research Assistant and Doctoral Researcher at [INCHER, University of Kassel](https://www.uni-kassel.de/forschung/en/incher/). My **economics** research focuses on **causal machine learning** and **higher education**. CV [CV](Adam_Hardaker_CV.pdf){target="_blank"}
-
-[Learn more about me &rarr;](/about.html)
+I’m a Research Assistant and Doctoral Researcher at [INCHER, University of Kassel](https://www.uni-kassel.de/forschung/en/incher/). My **economics** research focuses on **causal machine learning** and **higher education**.
 
 :::
 <!-- hero-heading -->
 
 <hr/>
-
-## What I'm Working On
-
-- [Projects & prototypes](projects/index.qmd) &mdash; snapshots of ongoing AI experiments, data tooling, and collaborative builds.
-- [Publications](publications.qmd) &mdash; working papers, conference talks, and peer-reviewed articles.
-- [CV](Adam_Hardaker_CV.pdf){target="_blank"} &mdash; full academic and professional history.
-
-::: {.callout-note}
-### Ideas for future additions
-- A short "Research agenda" overview to give visitors context for upcoming work.
-- Optional blog highlights or newsletter signup once you decide on a writing workflow.
-- A media or talks section with recordings, slides, or interviews.
-:::

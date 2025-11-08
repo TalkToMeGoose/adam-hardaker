@@ -1,8 +1,8 @@
 ---
-title: "Blog"
+title: "Ideas"
 listing:
   type: default
   sort: "date desc"
 ---
 
-Welcome to my research notes and project updates.
+Ideas in progress—sketches on research, methods, and whatever else I’m exploring. Longer riffs occasionally make their way to my [Substack](https://substack.com/@ahardaker).

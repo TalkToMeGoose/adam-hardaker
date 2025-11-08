@@ -11,9 +11,9 @@ website:
       - href: index.qmd
         text: Home
       - href: blog/index.qmd
-        text: Blog
+        text: Ideas
       - href: projects/index.qmd
-        text: Projects
+        text: Experiments
       - href: publications.qmd
         text: Publications
       - href: about.qmd
@@ -25,6 +25,8 @@ website:
         href: mailto:adam.hardaker@uni-kassel.de
       - text: "{{< iconify fa6-brands github >}}"
         href: https://github.com/TalkToMeGoose
+      - text: "{{< iconify simple-icons substack >}}"
+        href: https://substack.com/@ahardaker
       - text: "{{< iconify fa6-brands orcid >}}"
         href: https://orcid.org/0009-0008-1200-0127
       - text: "{{< iconify fa6-brands linkedin >}}"

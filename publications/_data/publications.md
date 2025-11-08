@@ -1,1 +1,1 @@
-1. **Author, A.**, & Collaborator, B. (2024). *Title of the article*. Journal Name, 12(3), 123-145. <https://doi.org/xx.xxxx/xxxxx>
+1. **Hardaker, A.**, Asanov, I., Bartoš, F., & Bruns, S. B. (2025). No evidence for effectiveness of behavioral interventions to mitigate climate change after adjusting for publication bias (No. 263). I4R Discussion Paper Series.
