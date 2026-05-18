@@ -1,11 +1,86 @@
 ---
+title: "Curriculum Vitae"
 resources:
   - assets/Adam_Hardaker_CV.pdf
 format:
   html:
     page-layout: article
+    css: styles.css
 ---
 
-<iframe src="assets/Adam_Hardaker_CV.pdf" width="100%" height="800px" frameborder="0"></iframe>
+<div style="margin-bottom: 2rem;">
+  <a href="assets/Adam_Hardaker_CV.pdf" target="_blank" class="button primary-button" style="text-decoration: none;">
+    {{< fa file-pdf >}} Download PDF CV
+  </a>
+</div>
 
-<br/>
+::: {.cv-container}
+
+<div style="text-align: center; margin-bottom: 2rem;">
+  <h2>Adam Hardaker</h2>
+  <p>m.a.hardaker@proton.me Kassel, Germany</p>
+</div>
+
+### RESEARCH FOCUS
+Causal Machine Learning (Double/Debiased Machine Learning), Bibliometrics, Economics of Innovation and Higher Education, Academic Mobility
+
+### PUBLICATIONS
+**No evidence that non-incentivized behavioral interventions effectively mitigate climate change after adjusting for publication bias**  
+Hardaker, A., Asanov, I., Bartoš, F., & Bruns, S. B. PNAS Nexus, 2026; [https://doi.org/10.1093/pnasnexus/pgag150](https://doi.org/10.1093/pnasnexus/pgag150)
+
+### PRESENTATIONS
+- **06/2025** 2025 Reading Group in Innovation Studies (REGIS), Bordeaux
+- **09/2025** 10th Summer School on Data and Algorithms for ST&I Studies, KU Leuven
+- **11/2025** Causal Data Science Meeting, Copenhagen Business School
+- **06/2026** DRUID26 Conference, Copenhagen Business School
+
+### EMPLOYMENT
+**University of Kassel**  
+*Doctoral Researcher* | May 2025 - Present | Kassel, Germany  
+
+- Conduct research on academic labor markets, international mobility, and higher education systems using large-scale linked datasets.
+- Built an end‑to‑end, modular R pipeline to harmonize and link 1996–2025 academic rosters with multi‑country thesis datasets, delivering a single longitudinal entity store.
+- Designed a scalable AI/ML entity‑resolution pipeline to create longitudinal academic record data from complex 1M+ observation data sources. 
+- Implemented university name resolution with per‑country rules plus ROR references; produced unmatched reports and achieved high institution coverage across 1M+ EDT records in 8+ countries.
+- Delivered QA/ops tooling: scraping + ingestion jobs, 5 Shiny applications for hand-labelling, linkage-review, visualisation, data coverage, and model evaluation.
+
+**IOTA Foundation**  
+*Research Analyst & Business Developer* | Feb 2022 - Jul 2023 | Berlin, Germany  
+
+- Spearheaded ecosystem growth initiatives, onboarding 30+ projects to a distributed ledger platform.
+- Created and led “Touchpoint”, a global program supporting startups in decentralized technology. 
+- Managed 70+ strategic relationships across exchanges, investors, and technology partners, driving 40% ecosystem growth.
+- Conducted market research and operational analysis to support growth and product strategy.
+- Presented on distributed systems and emerging financial technologies at international conferences.
+
+**U.S. Army**  
+*Aviation Maintenance Officer & UH-60A/L Blackhawk Pilot* | Dec 2010 - Jun 2018 | South Korea, Europe, USA  
+
+- Led operations, logistics, and training functions across aviation and maintenance organizations.
+- Managed multinational military units of up to 200 personnel in high-responsibility operational environments.
+- Directed aviation maintenance and readiness workflows supporting fleets of up to 100 aircraft.
+- Planned and executed training programs, operational reporting, and mission coordination under time-sensitive conditions.
+- Maintained a spotless safety record while executing 30+ high-priority missions.
+
+### EDUCATION
+**University of Kassel**  
+*Master of Science; Economic Behavior and Governance* | Mar 2025 | Kassel, Germany  
+
+- GPA: 4.0 (1.2 German scale); Thesis: Leveraging Double/Debiased Machine Learning to Improve Meta-Analyses
+
+**Bard College Berlin**  
+*Bachelor of Arts; Economics, Politics, and Social Thought* | May 2022 | Berlin, Germany  
+
+- Awards: DAAD Prize, Best Thesis Prize; GPA: 4.0 (1.0 German scale)
+
+**University of Florida**  
+*Bachelor of Science; Agriculture Operations Management* | Dec 2010 | Gainesville, Florida, USA  
+
+### OTHER
+
+- **Technical Skills:** R, Python, SQL, FastAPI, Git, Stata, HTML, CSS, JavaScript, Causal Inference, Machine Learning, Statistical Modelling
+- **Languages:** English (Native), German (B2) 
+- **Leadership:** President of Rugby Cassel (operations, recruitment, web development)
+- **Independent Project:** Founder & developer of MeetSpace, an event aggregation platform for scalable local discovery. Developed backend with Python, FastAPI & SQLite.
+
+:::

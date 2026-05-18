@@ -2,13 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.29">
+<meta name="generator" content="quarto-1.8.25">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2025-05-10">
+<meta name="dcterms.date" content="2026-05-18">
 
-<title>Placeholder – Adam Hardaker</title>
+<title>MeetSpace – Adam Hardaker</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,7 +25,6 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
 <script src="../../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
@@ -33,25 +32,26 @@ ul.task-list li input[type="checkbox"] {
 <meta name="quarto:offset" content="../../">
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-0815c480559380816a4d1ea211a47e91.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-748b535e376f14d4692bf2b2e5fd6380.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-0815c480559380816a4d1ea211a47e91.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-707d8167ce6003fca903bfe2be84ab7f.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-cc63fce9873912f1bbbccf05079cc9ea.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark-08799928d293638fe9563d5c5a2794e5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../../site_libs/bootstrap/bootstrap-cc63fce9873912f1bbbccf05079cc9ea.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-ffa9a6279353761231ec249df0a7fdd3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-24772959a0e306aba8d7698078628ce7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-ffa9a6279353761231ec249df0a7fdd3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../../site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
-  "location": "navbar",
+  "location": "sidebar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "end",
-  "type": "overlay",
+  "panel-placement": "start",
+  "type": "textbox",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
@@ -78,7 +78,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -232,6 +232,7 @@ ul.task-list li input[type="checkbox"] {
       toggleColorMode(toAlternate);
       setStyleSentinel(toAlternate);
       toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
     };
     // Switch to dark mode if need be
     if (hasAlternateSentinel()) {
@@ -242,104 +243,49 @@ ul.task-list li input[type="checkbox"] {
   </script>
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
-      <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../../index.html">
-    <span class="navbar-title">Adam Hardaker</span>
-    </a>
-  </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-  <span class="navbar-toggler-icon"></span>
-</button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="../../index.html"> 
-<span class="menu-text">Home</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../research.html"> 
-<span class="menu-text">Research</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../writing/index.html"> 
-<span class="menu-text">Writing</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../side-quests/index.html"> 
-<span class="menu-text">Side Quests</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../about.html"> 
-<span class="menu-text">About</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../cv.html"> 
-<span class="menu-text">CV</span></a>
-  </li>  
-</ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item compact">
-    <a class="nav-link" href="mailto:adam.hardaker@uni-kassel.de"> <i class="bi bi-envelope" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="https://github.com/TalkToMeGoose"> 
-<span class="menu-text"><iconify-icon role="img" inline="" icon="fa6-brands:github" aria-label="Icon github from fa6-brands Iconify.design set." title="Icon github from fa6-brands Iconify.design set."></iconify-icon></span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="https://substack.com/@ahardaker"> 
-<span class="menu-text"><iconify-icon role="img" inline="" icon="simple-icons:substack" aria-label="Icon substack from simple-icons Iconify.design set." title="Icon substack from simple-icons Iconify.design set."></iconify-icon></span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="https://orcid.org/0009-0008-1200-0127"> 
-<span class="menu-text"><iconify-icon role="img" inline="" icon="fa6-brands:orcid" aria-label="Icon orcid from fa6-brands Iconify.design set." title="Icon orcid from fa6-brands Iconify.design set."></iconify-icon></span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="https://www.linkedin.com/in/michael-adam-hardaker/"> 
-<span class="menu-text"><iconify-icon role="img" inline="" icon="fa6-brands:linkedin" aria-label="Icon linkedin from fa6-brands Iconify.design set." title="Icon linkedin from fa6-brands Iconify.design set."></iconify-icon></span></a>
-  </li>  
-</ul>
-          </div> <!-- /navcollapse -->
-            <div class="quarto-navbar-tools">
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
-</div>
-      </div> <!-- /container-fluid -->
-    </nav>
-</header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
         
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
+<nav class="site-nav" aria-label="Site navigation">
+  <a class="site-nav__brand" href="../../index.html">
+    <span class="site-nav__name">Adam Hardaker</span>
+    <img src="../../assets/hercules_trash.png" alt="" aria-hidden="true">
+  </a>
+  <div class="site-nav__links">
+    <a href="../../index.html">Home</a>
+    <a href="../../research.html">Research</a>
+    <a href="../../side-quests/index.html">Side Quests</a>
+    <a href="../../cv.html">CV</a>
+    <a href="mailto:adam.hardaker@uni-kassel.de">Email</a>
+  </div>
+</nav>
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Placeholder</h1>
+<h1 class="title">MeetSpace</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">research</div>
-    <div class="quarto-category">data-notes</div>
+    <div class="quarto-category">app</div>
+    <div class="quarto-category">campus</div>
+    <div class="quarto-category">events</div>
   </div>
   </div>
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page">
 
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">May 10, 2025</p>
+      <p class="date">May 18, 2026</p>
     </div>
   </div>
   
@@ -351,8 +297,10 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<!-- write later; leave placeholder -->
-<p>TODO: content</p>
+<p><a href="https://www.meet-space.com/">MeetSpace</a> is a lightweight campus events board built with React, Vite, Tailwind, and Supabase. It supports student and organization posts, filtering, bookmarks, reporting, admin review, and profile tools.</p>
+<p><img src="../../assets/meetspace.png" class="project-snapshot wide-snapshot img-fluid" alt="Screenshot of MeetSpace showing campus event cards"></p>
+<p>The visual style is deliberately more playful than this site: grid paper, sticker shadows, tape labels, and hand-drawn card treatment.</p>
+<p><a href="https://www.meet-space.com/">Visit MeetSpace</a> | <a href="https://www.youtube.com/watch?v=Mr4Pe7pxijI">Intro video</a> | <a href="https://github.com/TalkToMeGoose/MeetSpace">GitHub</a></p>
 
 
 
@@ -421,13 +369,14 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

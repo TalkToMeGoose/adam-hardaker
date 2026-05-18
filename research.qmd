@@ -1,6 +1,36 @@
 ---
 title: "Research"
-format: html
+format:
+  html:
+    toc: false
 ---
 
+I work on higher education, academic labor markets, causal machine learning, and meta-research. I am especially interested in what we can learn when messy administrative, bibliometric, and institutional data are linked carefully.
+
+## Publications
+
 {{< include research/_data/publications.md >}}
+
+## Working Areas
+
+::: {.quick-grid}
+
+::: {.sketch-card}
+### Academic Careers
+
+Dissertations, publications, mobility, and institutional trajectories in European higher education systems.
+:::
+
+::: {.sketch-card}
+### Methods
+
+Causal machine learning, entity resolution, econometrics, and reproducible data pipelines.
+:::
+
+::: {.sketch-card}
+### Meta-Research
+
+Publication bias, robustness, and how evidence changes when selective reporting is modeled explicitly.
+:::
+
+:::

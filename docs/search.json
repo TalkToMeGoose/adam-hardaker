@@ -1,44 +1,121 @@
 [
   {
-    "objectID": "writing/posts/2025-05-10-onet-ai.html",
-    "href": "writing/posts/2025-05-10-onet-ai.html",
-    "title": "Placeholder",
-    "section": "",
-    "text": "TODO: content"
-  },
-  {
     "objectID": "side-quests/index.html",
     "href": "side-quests/index.html",
     "title": "Side Quests",
     "section": "",
-    "text": "No matching items"
+    "text": "Adam Hardaker\n    \n  \n  \n    Home\n    Research\n    Side Quests\n    CV\n    Email\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMeetSpace\n\n\n\n\n\n\n\n\n\nMay 18, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nRugby Cassel\n\n\n\n\n\n\n\n\n\nMay 18, 2026\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "side-quests/entries/meetspace.html",
+    "href": "side-quests/entries/meetspace.html",
+    "title": "MeetSpace",
+    "section": "",
+    "text": "Adam Hardaker\n    \n  \n  \n    Home\n    Research\n    Side Quests\n    CV\n    Email\n  \n\n\n\n\n\nMeetSpace is a lightweight campus events board built with React, Vite, Tailwind, and Supabase. It supports student and organization posts, filtering, bookmarks, reporting, admin review, and profile tools.\n\nThe visual style is deliberately more playful than this site: grid paper, sticker shadows, tape labels, and hand-drawn card treatment.\nVisit MeetSpace | Intro video | GitHub"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Adam Hardaker",
     "section": "",
-    "text": "I’m a Research Assistant and Doctoral Researcher at INCHER, University of Kassel. My economics research focuses on causal machine learning and higher education."
+    "text": "Adam Hardaker\n    \n  \n  \n    Home\n    Research\n    Side Quests\n    CV\n    Email"
+  },
+  {
+    "objectID": "index.html#selected-work",
+    "href": "index.html#selected-work",
+    "title": "Adam Hardaker",
+    "section": "Selected Work",
+    "text": "Selected Work\n\n\nClimate behavior interventions and publication bias\nReanalysis of 144 effect estimates from 91 studies using Robust Bayesian Meta-Analysis. The published evidence strongly favors a zero average effect after accounting for publication bias and model uncertainty.\nPNAS Nexus | Code and materials\n\n\nAcademic mobility and research careers\nDoctoral work at INCHER linking dissertations, publications, and institutional records to study movement through higher education systems.\n\n\nMeetSpace\nA React, Vite, Tailwind, and Supabase campus events app with playful bulletin-board styling, filtering, reporting, profiles, and organization workflows.\nmeet-space.com | GitHub"
+  },
+  {
+    "objectID": "index.html#a-bit-more-human",
+    "href": "index.html#a-bit-more-human",
+    "title": "Adam Hardaker",
+    "section": "A Bit More Human",
+    "text": "A Bit More Human\nBefore academia, I spent eight years as a U.S. Army aviation officer and Blackhawk pilot, followed by a transition into business development. I’ve found that the leadership and operational focus from the military, combined with the strategic mindset of business development, translates surprisingly well to managing complex data projects and research pipelines. These days I split time between research, programming, Rugby Cassel admin, and the occasional side project that starts as “this should exist” and becomes a repo."
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About Me",
     "section": "",
-    "text": "I am a doctoral researcher at the University of Kassel’s International Center for Higher Education Research (INCHER), where I study the economics of academic mobility and the systems that shape research careers. My work combines data engineering, econometrics, and machine learning, building large-scale pipelines that link dissertations, publication databases, and institutional records across Europe.\nBefore academia, I spent eight years as a U.S. Army aviation officer and Blackhawk pilot. Since then, I have worked at the intersection of research and technology, from building decentralized startup programs at the IOTA Foundation to developing entity-resolution models for million-record datasets.\nOutside of research, I can be seen administrating Rugby Cassel as club president and tinkering with programming projects."
+    "text": "Adam Hardaker\n    \n  \n  \n    Home\n    Research\n    Side Quests\n    CV\n    Email\n  \n\n\n\n\n\nI am a doctoral researcher at the University of Kassel’s International Center for Higher Education Research (INCHER), where I study the economics of academic mobility and the systems that shape research careers. My work combines data engineering, econometrics, and machine learning, building large-scale pipelines that link dissertations, publication databases, and institutional records across Europe.\nBefore academia, I spent eight years as a U.S. Army aviation officer and Blackhawk pilot. Since then, I have worked at the intersection of research and technology, from building decentralized startup programs at the IOTA Foundation to developing entity-resolution models for million-record datasets.\nOutside of research, I can be found administrating Rugby Cassel as club president, tinkering with programming projects, or trying to make practical tools that reduce coordination friction for real people."
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Adam Hardaker\n    \n  \n  \n    Home\n    Research\n    Side Quests\n    CV\n    Email\n  \n\n\n\n\n\n\n  Download PDF CV \n\n\n\n\nAdam Hardaker\n\n\nm.a.hardaker@proton.me Kassel, Germany\n\n\n\nRESEARCH FOCUS\nCausal Machine Learning (Double/Debiased Machine Learning), Bibliometrics, Economics of Innovation and Higher Education, Academic Mobility\n\n\nPUBLICATIONS\nNo evidence that non-incentivized behavioral interventions effectively mitigate climate change after adjusting for publication bias\nHardaker, A., Asanov, I., Bartoš, F., & Bruns, S. B. PNAS Nexus, 2026; https://doi.org/10.1093/pnasnexus/pgag150\n\n\nPRESENTATIONS\n\n06/2025 2025 Reading Group in Innovation Studies (REGIS), Bordeaux\n09/2025 10th Summer School on Data and Algorithms for ST&I Studies, KU Leuven\n11/2025 Causal Data Science Meeting, Copenhagen Business School\n06/2026 DRUID26 Conference, Copenhagen Business School\n\n\n\nEMPLOYMENT\nUniversity of Kassel\nDoctoral Researcher | May 2025 - Present | Kassel, Germany\n\nConduct research on academic labor markets, international mobility, and higher education systems using large-scale linked datasets.\nBuilt an end‑to‑end, modular R pipeline to harmonize and link 1996–2025 academic rosters with multi‑country thesis datasets, delivering a single longitudinal entity store.\nDesigned a scalable AI/ML entity‑resolution pipeline to create longitudinal academic record data from complex 1M+ observation data sources.\nImplemented university name resolution with per‑country rules plus ROR references; produced unmatched reports and achieved high institution coverage across 1M+ EDT records in 8+ countries.\nDelivered QA/ops tooling: scraping + ingestion jobs, 5 Shiny applications for hand-labelling, linkage-review, visualisation, data coverage, and model evaluation.\n\nIOTA Foundation\nResearch Analyst & Business Developer | Feb 2022 - Jul 2023 | Berlin, Germany\n\nSpearheaded ecosystem growth initiatives, onboarding 30+ projects to a distributed ledger platform.\nCreated and led “Touchpoint”, a global program supporting startups in decentralized technology.\nManaged 70+ strategic relationships across exchanges, investors, and technology partners, driving 40% ecosystem growth.\nConducted market research and operational analysis to support growth and product strategy.\nPresented on distributed systems and emerging financial technologies at international conferences.\n\nU.S. Army\nAviation Maintenance Officer & UH-60A/L Blackhawk Pilot | Dec 2010 - Jun 2018 | South Korea, Europe, USA\n\nLed operations, logistics, and training functions across aviation and maintenance organizations.\nManaged multinational military units of up to 200 personnel in high-responsibility operational environments.\nDirected aviation maintenance and readiness workflows supporting fleets of up to 100 aircraft.\nPlanned and executed training programs, operational reporting, and mission coordination under time-sensitive conditions.\nMaintained a spotless safety record while executing 30+ high-priority missions.\n\n\n\nEDUCATION\nUniversity of Kassel\nMaster of Science; Economic Behavior and Governance | Mar 2025 | Kassel, Germany\n\nGPA: 4.0 (1.2 German scale); Thesis: Leveraging Double/Debiased Machine Learning to Improve Meta-Analyses\n\nBard College Berlin\nBachelor of Arts; Economics, Politics, and Social Thought | May 2022 | Berlin, Germany\n\nAwards: DAAD Prize, Best Thesis Prize; GPA: 4.0 (1.0 German scale)\n\nUniversity of Florida\nBachelor of Science; Agriculture Operations Management | Dec 2010 | Gainesville, Florida, USA\n\n\nOTHER\n\nTechnical Skills: R, Python, SQL, FastAPI, Git, Stata, HTML, CSS, JavaScript, Causal Inference, Machine Learning, Statistical Modelling\nLanguages: English (Native), German (B2)\nLeadership: President of Rugby Cassel (operations, recruitment, web development)\nIndependent Project: Founder & developer of MeetSpace, an event aggregation platform for scalable local discovery. Developed backend with Python, FastAPI & SQLite."
   },
   {
     "objectID": "research.html",
     "href": "research.html",
     "title": "Research",
     "section": "",
-    "text": "Hardaker, A., Asanov, I., Bartoš, F., & Bruns, S. B. (2025). No evidence for effectiveness of behavioral interventions to mitigate climate change after adjusting for publication bias (No. 263). I4R Discussion Paper Series."
+    "text": "Adam Hardaker\n    \n  \n  \n    Home\n    Research\n    Side Quests\n    CV\n    Email\nI work on higher education, academic labor markets, causal machine learning, and meta-research. I am especially interested in what we can learn when messy administrative, bibliometric, and institutional data are linked carefully."
   },
   {
-    "objectID": "writing/index.html",
-    "href": "writing/index.html",
-    "title": "Writing",
+    "objectID": "research.html#publications",
+    "href": "research.html#publications",
+    "title": "Research",
+    "section": "Publications",
+    "text": "Publications\n\nHardaker, A., Asanov, I., Bartos, F., & Bruns, S. B. (2026). No evidence that non-incentivized behavioral interventions effectively mitigate climate change after adjusting for publication bias. PNAS Nexus, pgag150. https://doi.org/10.1093/pnasnexus/pgag150 | Code and materials\nEarlier version: I4R Discussion Paper Series No. 263."
+  },
+  {
+    "objectID": "research.html#working-areas",
+    "href": "research.html#working-areas",
+    "title": "Research",
+    "section": "Working Areas",
+    "text": "Working Areas\n\n\nAcademic Careers\nDissertations, publications, mobility, and institutional trajectories in European higher education systems.\n\n\nMethods\nCausal machine learning, entity resolution, econometrics, and reproducible data pipelines.\n\n\nMeta-Research\nPublication bias, robustness, and how evidence changes when selective reporting is modeled explicitly."
+  },
+  {
+    "objectID": "side-quests/entries/rugby-cassel.html",
+    "href": "side-quests/entries/rugby-cassel.html",
+    "title": "Rugby Cassel",
     "section": "",
-    "text": "Placeholder\n\n\n\n\n\n\n\n\nMay 10, 2025\n\n\n\n\n\nNo matching items"
+    "text": "Adam Hardaker\n    \n  \n  \n    Home\n    Research\n    Side Quests\n    CV\n    Email\n  \n\n\n\n\n\nRugby Cassel is the local rugby club I help run as president. I also built the club website, which handles the public-facing basics: training information, news, calendar, rules, merch, contact, and recruitment.\n\nVisit Rugby Cassel"
+  },
+  {
+    "objectID": "index.html#upcoming-talks",
+    "href": "index.html#upcoming-talks",
+    "title": "Adam Hardaker",
+    "section": "Upcoming Talks",
+    "text": "Upcoming Talks\n\n\nDRUID26 Conference\nCopenhagen Business School, Denmark | June 8-10, 2026\nPaper Presentation - National and Transnational Embeddedness in Early-Career Researcher Mobility: Evidence from German Doctoral Graduates"
+  },
+  {
+    "objectID": "cv.html#professional-summary",
+    "href": "cv.html#professional-summary",
+    "title": "Curriculum Vitae",
+    "section": "Professional Summary",
+    "text": "Professional Summary\nI am a doctoral researcher at INCHER, University of Kassel, studying academic mobility, research careers, and the systems that shape higher education. My background combines eight years of leadership as a U.S. Army aviation officer and Blackhawk pilot, experience in business development, and deep technical expertise in data engineering, causal machine learning, and econometrics."
+  },
+  {
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "Curriculum Vitae",
+    "section": "Education",
+    "text": "Education\nPh.D. in Higher Education Research (Ongoing)\nINCHER, University of Kassel\n- Research focus: Academic mobility and research careers.\n(Add previous degrees here)"
+  },
+  {
+    "objectID": "cv.html#experience",
+    "href": "cv.html#experience",
+    "title": "Curriculum Vitae",
+    "section": "Experience",
+    "text": "Experience\nDoctoral Researcher\nINCHER, University of Kassel | [Year] - Present\n- Conduct research on academic mobility using causal machine learning and large linked administrative datasets.\nBusiness Development\n[Company Name] | [Years]\n- (Add specific business development achievements from the Google Doc here)\nAviation Officer & Blackhawk Pilot\nU.S. Army | [Years, e.g., 2012 - 2020]\n- Led aviation operations and managed complex logistics and team dynamics in high-pressure environments. - (Add specific military leadership achievements here)"
+  },
+  {
+    "objectID": "cv.html#upcoming-selected-presentations",
+    "href": "cv.html#upcoming-selected-presentations",
+    "title": "Curriculum Vitae",
+    "section": "Upcoming & Selected Presentations",
+    "text": "Upcoming & Selected Presentations\nDRUID26 Conference\nCopenhagen Business School, Denmark | June 8-10, 2026\n- Paper Presentation"
+  },
+  {
+    "objectID": "cv.html#projects-technical-skills",
+    "href": "cv.html#projects-technical-skills",
+    "title": "Curriculum Vitae",
+    "section": "Projects & Technical Skills",
+    "text": "Projects & Technical Skills\n\nLanguages & Tools: R, Python, SQL, JavaScript/TypeScript, React, Supabase.\nMethods: Causal Machine Learning, Econometrics, Meta-Analysis.\nProjects:\n\nMeetSpace - A campus events application.\nRugby Cassel Club Website.\n\n\nNote: The content above is a template. Please insert the exact details from your Google Docs!"
   }
 ]

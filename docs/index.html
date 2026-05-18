@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.29">
+<meta name="generator" content="quarto-1.9.37">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>Adam Hardaker</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -24,7 +27,6 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="site_libs/quarto-search/fuse.min.js"></script>
@@ -34,24 +36,25 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-0815c480559380816a4d1ea211a47e91.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-748b535e376f14d4692bf2b2e5fd6380.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-0815c480559380816a4d1ea211a47e91.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-d0ae9245876894da5ac7e18953ecc5cc.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-cc63fce9873912f1bbbccf05079cc9ea.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-08799928d293638fe9563d5c5a2794e5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-cc63fce9873912f1bbbccf05079cc9ea.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-6b423f165eeea3787de40cb4f8e821c3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-e8964db687007ca8dd88d9d9ce58e3ef.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-6b423f165eeea3787de40cb4f8e821c3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
 <link href="site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
-  "location": "navbar",
+  "location": "sidebar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "end",
-  "type": "overlay",
+  "panel-placement": "start",
+  "type": "textbox",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
@@ -78,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -232,6 +235,7 @@ ul.task-list li input[type="checkbox"] {
       toggleColorMode(toAlternate);
       setStyleSentinel(toAlternate);
       toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
     };
     // Switch to dark mode if need be
     if (hasAlternateSentinel()) {
@@ -242,122 +246,137 @@ ul.task-list li input[type="checkbox"] {
   </script>
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
-      <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Adam Hardaker</span>
-    </a>
-  </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-  <span class="navbar-toggler-icon"></span>
-</button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
-<span class="menu-text">Home</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./research.html"> 
-<span class="menu-text">Research</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./writing/index.html"> 
-<span class="menu-text">Writing</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./side-quests/index.html"> 
-<span class="menu-text">Side Quests</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
-<span class="menu-text">About</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./cv.html"> 
-<span class="menu-text">CV</span></a>
-  </li>  
-</ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item compact">
-    <a class="nav-link" href="mailto:adam.hardaker@uni-kassel.de"> <i class="bi bi-envelope" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="https://github.com/TalkToMeGoose"> 
-<span class="menu-text"><iconify-icon role="img" inline="" icon="fa6-brands:github" aria-label="Icon github from fa6-brands Iconify.design set." title="Icon github from fa6-brands Iconify.design set."></iconify-icon></span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="https://substack.com/@ahardaker"> 
-<span class="menu-text"><iconify-icon role="img" inline="" icon="simple-icons:substack" aria-label="Icon substack from simple-icons Iconify.design set." title="Icon substack from simple-icons Iconify.design set."></iconify-icon></span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="https://orcid.org/0009-0008-1200-0127"> 
-<span class="menu-text"><iconify-icon role="img" inline="" icon="fa6-brands:orcid" aria-label="Icon orcid from fa6-brands Iconify.design set." title="Icon orcid from fa6-brands Iconify.design set."></iconify-icon></span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="https://www.linkedin.com/in/michael-adam-hardaker/"> 
-<span class="menu-text"><iconify-icon role="img" inline="" icon="fa6-brands:linkedin" aria-label="Icon linkedin from fa6-brands Iconify.design set." title="Icon linkedin from fa6-brands Iconify.design set."></iconify-icon></span></a>
-  </li>  
-</ul>
-          </div> <!-- /navcollapse -->
-            <div class="quarto-navbar-tools">
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
-</div>
-      </div> <!-- /container-fluid -->
-    </nav>
-</header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content page-columns page-full" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
+<nav class="site-nav" aria-label="Site navigation">
+  <a class="site-nav__brand" href="./index.html">
+    <span class="site-nav__name">Adam Hardaker</span>
+    <img src="./assets/hercules_trash.png" alt="" aria-hidden="true">
+  </a>
+  <div class="site-nav__links">
+    <a href="./index.html">Home</a>
+    <a href="./research.html">Research</a>
+    <a href="./side-quests/index.html">Side Quests</a>
+    <a href="./cv.html">CV</a>
+    <a href="mailto:adam.hardaker@uni-kassel.de">Email</a>
+  </div>
+</nav>
 
-
-
-
-<p><br><br></p>
-<div class="quarto-about-solana column-body">
-  <div class="about-entity">
-    <div class="entity-contents">
-      <header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Adam Hardaker</h1>
 <p class="subtitle lead">Doctoral Researcher at INCHER, University of Kassel</p>
 </div>
-<div class="quarto-title-meta">
-  </div>
-</header> <div class="about-links">
-  <a href="mailto:adam.hardaker@uni-kassel.de" class="about-link" rel="" target="">
-     <span class="about-link-text"><i class="fa-solid fa-envelope" aria-label="envelope"></i></span>
-  </a>
-  <a href="https://github.com/TalkToMeGoose" class="about-link" rel="" target="">
-     <span class="about-link-text"><iconify-icon role="img" inline="" icon="fa6-brands:github" aria-label="Icon github from fa6-brands Iconify.design set." title="Icon github from fa6-brands Iconify.design set."></iconify-icon></span>
-  </a>
-  <a href="https://orcid.org/0009-0008-1200-0127" class="about-link" rel="" target="">
-     <span class="about-link-text"><iconify-icon role="img" inline="" icon="fa6-brands:orcid" aria-label="Icon orcid from fa6-brands Iconify.design set." title="Icon orcid from fa6-brands Iconify.design set."></iconify-icon></span>
-  </a>
-  <a href="https://www.linkedin.com/in/michael-adam-hardaker/" class="about-link" rel="" target="">
-     <span class="about-link-text"><iconify-icon role="img" inline="" icon="fa6-brands:linkedin" aria-label="Icon linkedin from fa6-brands Iconify.design set." title="Icon linkedin from fa6-brands Iconify.design set."></iconify-icon></span>
-  </a>
-</div>
-      <div class="about-contents"><div id="hero-heading">
-<p>I’m a Research Assistant and Doctoral Researcher at <a href="https://www.uni-kassel.de/forschung/en/incher/">INCHER, University of Kassel</a>. My <strong>economics</strong> research focuses on <strong>causal machine learning</strong> and <strong>higher education</strong>.</p>
-</div></div>
-    </div>
-  </div>
-</div>
 
-<!-- hero-heading -->
-<hr>
 
+
+<div class="quarto-title-meta column-page">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<style>
+.quarto-title-block {
+  display: none;
+}
+
+.site-nav {
+  display: none;
+}
+</style>
+<div class="site-shell">
+<div class="hero-panel">
+<div class="hero-copy">
+<div class="tape-label">
+<p>Economics + data engineering + higher education</p>
+</div>
+<section id="adam-hardaker" class="level1 hero-name">
+<h1>Adam Hardaker</h1>
+</section>
+<p>I am a doctoral researcher at <a href="https://www.uni-kassel.de/forschung/en/incher/">INCHER, University of Kassel</a>, studying academic mobility, research careers, and the systems that shape higher education. I build data pipelines, use econometrics and machine learning, and try to make the messy parts of science legible.</p>
+<div class="hero-actions">
+<p><a href="./research.html" class="button primary-button">Research</a> <a href="./side-quests/index.html" class="button secondary-button">Side Quests</a> <a href="./cv.html" class="button secondary-button">CV</a> <a href="mailto:adam.hardaker@uni-kassel.de" class="button secondary-button" aria-label="Email"><i class="fa-solid fa-envelope" aria-label="envelope"></i> Email</a></p>
+</div>
+</div>
+<div class="hero-photo">
+<p><img src="assets/Adam.jpg" class="img-fluid" alt="Portrait of Adam Hardaker"></p>
+<div class="social-strip">
+<p><a href="https://www.linkedin.com/in/michael-adam-hardaker/" aria-label="LinkedIn"><iconify-icon role="img" inline="" icon="fa6-brands:linkedin" aria-label="Icon linkedin from fa6-brands Iconify.design set." title="Icon linkedin from fa6-brands Iconify.design set."></iconify-icon></a> <a href="https://substack.com/@ahardaker" aria-label="Substack"><iconify-icon role="img" inline="" icon="simple-icons:substack" aria-label="Icon substack from simple-icons Iconify.design set." title="Icon substack from simple-icons Iconify.design set."></iconify-icon></a> <a href="https://orcid.org/0009-0008-1200-0127" aria-label="ORCID"><iconify-icon role="img" inline="" icon="fa6-brands:orcid" aria-label="Icon orcid from fa6-brands Iconify.design set." title="Icon orcid from fa6-brands Iconify.design set."></iconify-icon></a> <a href="https://github.com/TalkToMeGoose" aria-label="GitHub"><iconify-icon role="img" inline="" icon="fa6-brands:github" aria-label="Icon github from fa6-brands Iconify.design set." title="Icon github from fa6-brands Iconify.design set."></iconify-icon></a></p>
+</div>
+</div>
+</div>
+<div class="quick-grid">
+<section id="what-i-work-on" class="level3 sketch-card">
+<h3 class="anchored" data-anchor-id="what-i-work-on">What I work on</h3>
+<ul>
+<li>Causal machine learning</li>
+<li>Higher education and research careers</li>
+<li>Publication bias and meta-research</li>
+<li>Large linked administrative and bibliometric datasets</li>
+</ul>
+</section>
+<section id="new-paper" class="level3 sketch-card accent-card">
+<h3 class="anchored" data-anchor-id="new-paper">New paper</h3>
+<p><strong>No evidence that non-incentivized behavioral interventions effectively mitigate climate change after adjusting for publication bias</strong><br>
+PNAS Nexus, 2026</p>
+<p><a href="https://doi.org/10.1093/pnasnexus/pgag150" class="small-link">Read the paper</a></p>
+</section>
+<section id="side-quest" class="level3 sketch-card">
+<h3 class="anchored" data-anchor-id="side-quest">Side quest</h3>
+<p><img src="assets/meetspace.png" class="project-snapshot img-fluid" alt="Screenshot of MeetSpace showing the events board interface"></p>
+<p><a href="https://www.meet-space.com/">MeetSpace</a> is a lightweight campus events board I built for student discovery, organization posts, and practical local coordination. I also help run <a href="https://rugbycassel.de/">Rugby Cassel</a> as club president and built the club website.</p>
+<p><a href="./side-quests/index.html" class="small-link">See side projects</a></p>
+</section>
+</div>
+<section id="upcoming-talks" class="level2 section-band">
+<h2 class="anchored" data-anchor-id="upcoming-talks">Upcoming Talks</h2>
+<div class="work-list">
+<div class="work-item">
+<p><strong><a href="https://conference.druid.dk/Druid/?confId=72">DRUID26 Conference</a></strong><br>
+Copenhagen Business School, Denmark | June 8-10, 2026<br>
+<em>Paper Presentation - National and Transnational Embeddedness in Early-Career Researcher Mobility: Evidence from German Doctoral Graduates</em></p>
+</div>
+</div>
+</section>
+<section id="selected-work" class="level2 section-band">
+<h2 class="anchored" data-anchor-id="selected-work">Selected Work</h2>
+<div class="work-list">
+<div class="work-item">
+<p><strong>Climate behavior interventions and publication bias</strong><br>
+Reanalysis of 144 effect estimates from 91 studies using Robust Bayesian Meta-Analysis. The published evidence strongly favors a zero average effect after accounting for publication bias and model uncertainty.</p>
+<p><a href="https://doi.org/10.1093/pnasnexus/pgag150">PNAS Nexus</a> | <a href="https://osf.io/fcjbe/">Code and materials</a></p>
+</div>
+<div class="work-item">
+<p><strong>Academic mobility and research careers</strong><br>
+Doctoral work at INCHER linking dissertations, publications, and institutional records to study movement through higher education systems.</p>
+</div>
+<div class="work-item">
+<p><strong>MeetSpace</strong><br>
+A React, Vite, Tailwind, and Supabase campus events app with playful bulletin-board styling, filtering, reporting, profiles, and organization workflows.</p>
+<p><a href="https://www.meet-space.com/">meet-space.com</a> | <a href="https://github.com/TalkToMeGoose/MeetSpace">GitHub</a></p>
+</div>
+</div>
+</section>
+<div class="section-band">
+<section id="a-bit-more-human" class="level2">
+<h2 class="anchored" data-anchor-id="a-bit-more-human">A Bit More Human</h2>
+<p>Before academia, I spent eight years as a U.S. Army aviation officer and Blackhawk pilot, followed by a transition into business development. I’ve found that the leadership and operational focus from the military, combined with the strategic mindset of business development, translates surprisingly well to managing complex data projects and research pipelines. These days I split time between research, programming, Rugby Cassel admin, and the occasional side project that starts as “this should exist” and becomes a repo.</p>
+</section>
+</div>
+</div>
 
 
 
@@ -377,6 +396,13 @@ ul.task-list li input[type="checkbox"] {
       window.document.body.appendChild(a);
     }
     setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
@@ -419,13 +445,14 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

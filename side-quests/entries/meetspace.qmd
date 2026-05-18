@@ -1,0 +1,14 @@
+---
+title: "MeetSpace"
+date: "2026-05-18"
+image: "../../assets/meetspace.png"
+categories: [app, campus, events]
+---
+
+[MeetSpace](https://www.meet-space.com/) is a lightweight campus events board built with React, Vite, Tailwind, and Supabase. It supports student and organization posts, filtering, bookmarks, reporting, admin review, and profile tools.
+
+![](../../assets/meetspace.png){.project-snapshot .wide-snapshot fig-alt="Screenshot of MeetSpace showing campus event cards"}
+
+The visual style is deliberately more playful than this site: grid paper, sticker shadows, tape labels, and hand-drawn card treatment.
+
+[Visit MeetSpace](https://www.meet-space.com/) | [Intro video](https://www.youtube.com/watch?v=Mr4Pe7pxijI) | [GitHub](https://github.com/TalkToMeGoose/MeetSpace)

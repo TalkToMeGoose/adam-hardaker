@@ -1,0 +1,12 @@
+---
+title: "Rugby Cassel"
+date: "2026-05-18"
+image: "../../assets/rugby.png"
+categories: [club, website, rugby]
+---
+
+[Rugby Cassel](https://rugbycassel.de/) is the local rugby club I help run as president. I also built the club website, which handles the public-facing basics: training information, news, calendar, rules, merch, contact, and recruitment.
+
+![](../../assets/rugby.png){.project-snapshot .wide-snapshot fig-alt="Screenshot of the Rugby Cassel website homepage"}
+
+[Visit Rugby Cassel](https://rugbycassel.de/)

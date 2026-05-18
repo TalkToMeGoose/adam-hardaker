@@ -1,6 +1,0 @@
----
-title: "Writing"
-listing:
-  type: default
-  sort: "date desc"
----

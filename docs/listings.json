@@ -1,12 +1,9 @@
 [
   {
     "listing": "/side-quests/index.html",
-    "items": []
-  },
-  {
-    "listing": "/writing/index.html",
     "items": [
-      "/writing/posts/2025-05-10-onet-ai.html"
+      "/side-quests/entries/meetspace.html",
+      "/side-quests/entries/rugby-cassel.html"
     ]
   }
 ]
