@@ -8,17 +8,17 @@ format:
     css: styles.css
 ---
 
-<div style="margin-bottom: 2rem;">
-  <a href="assets/Adam_Hardaker_CV.pdf" target="_blank" class="button primary-button" style="text-decoration: none;">
+<div class="cv-actions">
+  <a href="assets/Adam_Hardaker_CV.pdf" target="_blank" rel="noopener" class="button primary-button">
     {{< fa file-pdf >}} Download PDF CV
   </a>
 </div>
 
 ::: {.cv-container}
 
-<div style="text-align: center; margin-bottom: 2rem;">
+<div class="cv-heading">
   <h2>Adam Hardaker</h2>
-  <p>m.a.hardaker@proton.me Kassel, Germany</p>
+  <p><a href="mailto:adam.hardaker@uni-kassel.de">adam.hardaker@uni-kassel.de</a> · Kassel, Germany</p>
 </div>
 
 ### RESEARCH FOCUS
@@ -29,10 +29,16 @@ Causal Machine Learning (Double/Debiased Machine Learning), Bibliometrics, Econo
 Hardaker, A., Asanov, I., Bartoš, F., & Bruns, S. B. PNAS Nexus, 2026; [https://doi.org/10.1093/pnasnexus/pgag150](https://doi.org/10.1093/pnasnexus/pgag150)
 
 ### PRESENTATIONS
+- **09/2026** [MAER-Net Colloquium](https://www.maer-net.org/2026-chemnitz), Chemnitz University of Technology — *Reassessing the effectiveness of carbon pricing: A replication-based meta-analysis*
+- **07/2026** [Workshop on the Economics of Science and Innovation](https://sites.google.com/view/bse-eosi-workshop/home), Bordeaux School of Economics
+- **06/2026** [REGIS Summer School on Science, Technology and Innovation](https://www.uni-kassel.de/forschung/en/incher/events/regis-summer-school-on-science-technology-and-innovation-2026/program.html), Technical University of Munich — REGIS Seminar
+- **06/2026** DRUID26 Conference, Copenhagen Business School
 - **06/2025** 2025 Reading Group in Innovation Studies (REGIS), Bordeaux
 - **09/2025** 10th Summer School on Data and Algorithms for ST&I Studies, KU Leuven
 - **11/2025** Causal Data Science Meeting, Copenhagen Business School
-- **06/2026** DRUID26 Conference, Copenhagen Business School
+
+### ACADEMIC SERVICE
+**Peer reviewer (2026):** *npj Climate Action*; *Studies in Higher Education*
 
 ### EMPLOYMENT
 **University of Kassel**  

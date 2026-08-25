@@ -5,32 +5,14 @@ format:
     toc: false
 ---
 
-I work on higher education, academic labor markets, causal machine learning, and meta-research. I am especially interested in what we can learn when messy administrative, bibliometric, and institutional data are linked carefully.
+::: {.page-lede .research-lede}
+I currently study researcher mobility, academic labor markets, knowledge production, and metascience.
+
+![](assets/design/research-logit.svg){.research-lede__mark fig-alt="Binary observations and a fitted logistic regression curve"}
+:::
 
 ## Publications
 
+::: {.publication-list}
 {{< include research/_data/publications.md >}}
-
-## Working Areas
-
-::: {.quick-grid}
-
-::: {.sketch-card}
-### Academic Careers
-
-Dissertations, publications, mobility, and institutional trajectories in European higher education systems.
-:::
-
-::: {.sketch-card}
-### Methods
-
-Causal machine learning, entity resolution, econometrics, and reproducible data pipelines.
-:::
-
-::: {.sketch-card}
-### Meta-Research
-
-Publication bias, robustness, and how evidence changes when selective reporting is modeled explicitly.
-:::
-
 :::

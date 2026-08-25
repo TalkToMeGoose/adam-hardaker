@@ -1,9 +1,24 @@
 ---
-title: "About Me"
+title: "About"
+format:
+  html:
+    toc: false
 ---
 
-I am a doctoral researcher at the University of Kassel's International Center for Higher Education Research (INCHER), where I study the economics of academic mobility and the systems that shape research careers. My work combines data engineering, econometrics, and machine learning, building large-scale pipelines that link dissertations, publication databases, and institutional records across Europe.
+::: {.about-lede}
 
-Before academia, I spent eight years as a U.S. Army aviation officer and Blackhawk pilot. Since then, I have worked at the intersection of research and technology, from building decentralized startup programs at the IOTA Foundation to developing entity-resolution models for million-record datasets.
+::: {.about-figure}
+![](assets/design/about-cutout.png){fig-alt="Illustration of Adam Hardaker speaking at an event"}
+:::
 
-Outside of research, I can be found administrating Rugby Cassel as club president, tinkering with programming projects, or trying to make practical tools that reduce coordination friction for real people.
+::: {.about-copy}
+I am a doctoral researcher at the University of Kassel's [International Center for Higher Education Research (INCHER)](https://www.uni-kassel.de/forschung/en/incher/), where I study academic mobility, research careers, and the systems that shape knowledge production.
+
+My work combines data engineering, econometrics, and machine learning. Much of it involves building large-scale pipelines that link dissertations, publication databases, and institutional records across Europe—then making those messy systems legible enough to study.
+
+Before academia, I spent eight years as a U.S. Army aviation officer and Blackhawk pilot. I later worked at the intersection of research and technology, including building decentralized startup programs at the IOTA Foundation and developing entity-resolution models for million-record datasets. That route was not especially linear, but it left me interested in a consistent set of questions: how complex organizations produce knowledge, how people move through them, and how better data can make their decisions more intelligible.
+
+Outside research, I help run [Rugby Cassel](https://rugbycassel.de/) as club president, build small software projects, and occasionally turn “this should exist” into a repository. Those projects live under [Side Quests](side-quests/index.qmd). For research, collaboration, or speaking enquiries, [email me](mailto:adam.hardaker@uni-kassel.de).
+:::
+
+:::

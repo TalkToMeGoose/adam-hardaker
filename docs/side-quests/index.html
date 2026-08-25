@@ -49,6 +49,8 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/bootstrap/bootstrap-dark-e8964db687007ca8dd88d9d9ce58e3ef.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <link href="../site_libs/bootstrap/bootstrap-6b423f165eeea3787de40cb4f8e821c3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
+<link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -315,18 +317,39 @@ window.Quarto = {
 <main class="content column-page" id="quarto-document-content">
 
 <nav class="site-nav" aria-label="Site navigation">
-  <a class="site-nav__brand" href="../index.html">
-    <span class="site-nav__name">Adam Hardaker</span>
-    <img src="../assets/hercules_trash.png" alt="" aria-hidden="true">
-  </a>
-  <div class="site-nav__links">
-    <a href="../index.html">Home</a>
-    <a href="../research.html">Research</a>
-    <a href="../side-quests/index.html">Side Quests</a>
-    <a href="../cv.html">CV</a>
-    <a href="mailto:adam.hardaker@uni-kassel.de">Email</a>
+  <div class="site-nav__identity">
+    <a class="site-nav__brand" href="../index.html">
+      <span class="site-nav__name">Adam Hardaker</span>
+    </a>
+    <div class="site-nav__socials" aria-label="Professional profiles and contact">
+      <a href="https://www.linkedin.com/in/michael-adam-hardaker/" aria-label="LinkedIn" title="LinkedIn" target="_blank" rel="noopener"><i class="bi bi-linkedin" aria-hidden="true"></i></a>
+      <a href="https://substack.com/@ahardaker" aria-label="Substack" title="Substack" target="_blank" rel="noopener"><i class="bi bi-substack" aria-hidden="true"></i></a>
+      <a href="https://orcid.org/0009-0008-1200-0127" aria-label="ORCID" title="ORCID" target="_blank" rel="noopener"><span class="site-nav__orcid" aria-hidden="true">iD</span></a>
+      <a href="https://github.com/TalkToMeGoose" aria-label="GitHub" title="GitHub" target="_blank" rel="noopener"><i class="bi bi-github" aria-hidden="true"></i></a>
+      <a href="mailto:adam.hardaker@uni-kassel.de" aria-label="Email Adam" title="Email Adam"><i class="bi bi-envelope-fill" aria-hidden="true"></i></a>
+    </div>
   </div>
+  <div class="site-nav__links">
+    <a data-nav="home" href="../index.html">Home</a>
+    <a data-nav="about" href="../about.html">About</a>
+    <a data-nav="research" href="../research.html">Research</a>
+    <a data-nav="cv" href="../cv.html">C.V.</a>
+    <a data-nav="side-quests" href="../side-quests/index.html">Side Quests</a>
+  </div>
+  <a class="site-nav__theme quarto-color-scheme-toggle" href="" aria-label="Switch color theme" title="Switch color theme" onclick="window.quartoToggleColorScheme(); return false;"><i class="bi" aria-hidden="true"></i></a>
 </nav>
+
+<script>
+  (() => {
+    const path = window.location.pathname.replace(/\/$/, "/index.html");
+    const page = path.includes("/side-quests/") ? "side-quests"
+      : path.endsWith("/about.html") ? "about"
+      : path.endsWith("/research.html") ? "research"
+      : path.endsWith("/cv.html") ? "cv"
+      : "home";
+    document.querySelector(`[data-nav="${page}"]`)?.setAttribute("aria-current", "page");
+  })();
+</script>
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -347,13 +370,16 @@ window.Quarto = {
 </header>
 
 
+<div class="page-lede side-quests-lede">
+<p>Not every worthwhile project belongs in a paper. This is where I keep software, community work, and other practical things that began with “this should exist.”</p>
+</div>
 
 
 
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="YXBwJTJDY2FtcHVzJTJDZXZlbnRz" data-listing-date-sort="1779055200000" data-listing-file-modified-sort="1779101382422" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="61">
+<div class="g-col-1" data-index="0" data-categories="YXBwJTJDY2FtcHVzJTJDZXZlbnRz" data-listing-date-sort="1779055200000" data-listing-file-modified-sort="1787579227610" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="61">
 <a href="../side-quests/entries/meetspace.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -377,7 +403,7 @@ May 18, 2026
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="Y2x1YiUyQ3dlYnNpdGUlMkNydWdieQ==" data-listing-date-sort="1779055200000" data-listing-file-modified-sort="1779101890006" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="42">
+<div class="g-col-1" data-index="1" data-categories="Y2x1YiUyQ3dlYnNpdGUlMkNydWdieQ==" data-listing-date-sort="1779055200000" data-listing-file-modified-sort="1787579227610" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="42">
 <a href="../side-quests/entries/rugby-cassel.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -490,7 +516,7 @@ May 18, 2026
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/adam-hardaker\.com");
+        var filterRegex = new RegExp("https:\/\/ahrdkr\.com");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

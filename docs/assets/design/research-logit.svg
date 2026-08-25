@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">Logistic regression research mark</title>
+  <desc id="desc">Binary observations and a fitted logistic curve, rendered in navy and orange.</desc>
+
+  <g fill="#1F568F">
+    <!-- Observed zeros, concentrated on the left with slight visual jitter. -->
+    <circle cx="68" cy="288" r="13"/>
+    <circle cx="105" cy="278" r="12"/>
+    <circle cx="142" cy="293" r="13"/>
+    <circle cx="180" cy="281" r="12"/>
+    <circle cx="219" cy="290" r="13"/>
+    <circle cx="260" cy="276" r="12"/>
+    <circle cx="306" cy="288" r="13"/>
+    <circle cx="359" cy="279" r="12"/>
+    <circle cx="429" cy="290" r="13"/>
+
+    <!-- Observed ones, concentrated on the right with slight visual jitter. -->
+    <circle cx="192" cy="78" r="12"/>
+    <circle cx="248" cy="89" r="13"/>
+    <circle cx="300" cy="72" r="12"/>
+    <circle cx="347" cy="84" r="13"/>
+    <circle cx="391" cy="69" r="12"/>
+    <circle cx="432" cy="82" r="13"/>
+    <circle cx="473" cy="71" r="12"/>
+    <circle cx="514" cy="87" r="13"/>
+    <circle cx="555" cy="73" r="12"/>
+    <circle cx="592" cy="84" r="13"/>
+
+    <!-- A few ambiguous observations around the transition. -->
+    <circle cx="275" cy="238" r="11"/>
+    <circle cx="316" cy="205" r="12"/>
+    <circle cx="353" cy="170" r="11"/>
+    <circle cx="391" cy="137" r="12"/>
+  </g>
+
+  <!-- A fitted logit curve: p(x) = 1 / (1 + exp(-(b0 + b1*x))). -->
+  <path
+    d="M 58 286
+       C 155 286, 217 278, 272 237
+       C 322 200, 336 159, 377 124
+       C 425 83, 483 76, 604 76"
+    fill="none"
+    stroke="#F3A13A"
+    stroke-width="13"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+</svg>

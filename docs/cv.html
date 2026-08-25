@@ -257,18 +257,39 @@ ul.task-list li input[type="checkbox"] {
 <main class="content" id="quarto-document-content">
 
 <nav class="site-nav" aria-label="Site navigation">
-  <a class="site-nav__brand" href="./index.html">
-    <span class="site-nav__name">Adam Hardaker</span>
-    <img src="./assets/hercules_trash.png" alt="" aria-hidden="true">
-  </a>
-  <div class="site-nav__links">
-    <a href="./index.html">Home</a>
-    <a href="./research.html">Research</a>
-    <a href="./side-quests/index.html">Side Quests</a>
-    <a href="./cv.html">CV</a>
-    <a href="mailto:adam.hardaker@uni-kassel.de">Email</a>
+  <div class="site-nav__identity">
+    <a class="site-nav__brand" href="./index.html">
+      <span class="site-nav__name">Adam Hardaker</span>
+    </a>
+    <div class="site-nav__socials" aria-label="Professional profiles and contact">
+      <a href="https://www.linkedin.com/in/michael-adam-hardaker/" aria-label="LinkedIn" title="LinkedIn" target="_blank" rel="noopener"><i class="bi bi-linkedin" aria-hidden="true"></i></a>
+      <a href="https://substack.com/@ahardaker" aria-label="Substack" title="Substack" target="_blank" rel="noopener"><i class="bi bi-substack" aria-hidden="true"></i></a>
+      <a href="https://orcid.org/0009-0008-1200-0127" aria-label="ORCID" title="ORCID" target="_blank" rel="noopener"><span class="site-nav__orcid" aria-hidden="true">iD</span></a>
+      <a href="https://github.com/TalkToMeGoose" aria-label="GitHub" title="GitHub" target="_blank" rel="noopener"><i class="bi bi-github" aria-hidden="true"></i></a>
+      <a href="mailto:adam.hardaker@uni-kassel.de" aria-label="Email Adam" title="Email Adam"><i class="bi bi-envelope-fill" aria-hidden="true"></i></a>
+    </div>
   </div>
+  <div class="site-nav__links">
+    <a data-nav="home" href="./index.html">Home</a>
+    <a data-nav="about" href="./about.html">About</a>
+    <a data-nav="research" href="./research.html">Research</a>
+    <a data-nav="cv" href="./cv.html">C.V.</a>
+    <a data-nav="side-quests" href="./side-quests/index.html">Side Quests</a>
+  </div>
+  <a class="site-nav__theme quarto-color-scheme-toggle" href="" aria-label="Switch color theme" title="Switch color theme" onclick="window.quartoToggleColorScheme(); return false;"><i class="bi" aria-hidden="true"></i></a>
 </nav>
+
+<script>
+  (() => {
+    const path = window.location.pathname.replace(/\/$/, "/index.html");
+    const page = path.includes("/side-quests/") ? "side-quests"
+      : path.endsWith("/about.html") ? "about"
+      : path.endsWith("/research.html") ? "research"
+      : path.endsWith("/cv.html") ? "cv"
+      : "home";
+    document.querySelector(`[data-nav="${page}"]`)?.setAttribute("aria-current", "page");
+  })();
+</script>
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -289,16 +310,16 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div style="margin-bottom: 2rem;">
-<p><a href="assets/Adam_Hardaker_CV.pdf" target="_blank" class="button primary-button" style="text-decoration: none;"> <i class="fa-solid fa-file-pdf" aria-label="file-pdf"></i> Download PDF CV </a></p>
+<div class="cv-actions">
+<p><a href="assets/Adam_Hardaker_CV.pdf" target="_blank" rel="noopener" class="button primary-button"> <i class="fa-solid fa-file-pdf" aria-label="file-pdf"></i> Download PDF CV </a></p>
 </div>
 <div class="cv-container">
-<div style="text-align: center; margin-bottom: 2rem;">
+<div class="cv-heading">
 <h2 class="anchored">
 Adam Hardaker
 </h2>
 <p>
-m.a.hardaker@proton.me Kassel, Germany
+<a href="mailto:adam.hardaker@uni-kassel.de">adam.hardaker@uni-kassel.de</a> · Kassel, Germany
 </p>
 </div>
 <section id="research-focus" class="level3">
@@ -313,11 +334,18 @@ Hardaker, A., Asanov, I., Bartoš, F., &amp; Bruns, S. B. PNAS Nexus, 2026; <a h
 <section id="presentations" class="level3">
 <h3 class="anchored" data-anchor-id="presentations">PRESENTATIONS</h3>
 <ul>
+<li><strong>09/2026</strong> <a href="https://www.maer-net.org/2026-chemnitz">MAER-Net Colloquium</a>, Chemnitz University of Technology — <em>Reassessing the effectiveness of carbon pricing: A replication-based meta-analysis</em></li>
+<li><strong>07/2026</strong> <a href="https://sites.google.com/view/bse-eosi-workshop/home">Workshop on the Economics of Science and Innovation</a>, Bordeaux School of Economics</li>
+<li><strong>06/2026</strong> <a href="https://www.uni-kassel.de/forschung/en/incher/events/regis-summer-school-on-science-technology-and-innovation-2026/program.html">REGIS Summer School on Science, Technology and Innovation</a>, Technical University of Munich — REGIS Seminar</li>
+<li><strong>06/2026</strong> DRUID26 Conference, Copenhagen Business School</li>
 <li><strong>06/2025</strong> 2025 Reading Group in Innovation Studies (REGIS), Bordeaux</li>
 <li><strong>09/2025</strong> 10th Summer School on Data and Algorithms for ST&amp;I Studies, KU Leuven</li>
 <li><strong>11/2025</strong> Causal Data Science Meeting, Copenhagen Business School</li>
-<li><strong>06/2026</strong> DRUID26 Conference, Copenhagen Business School</li>
 </ul>
+</section>
+<section id="academic-service" class="level3">
+<h3 class="anchored" data-anchor-id="academic-service">ACADEMIC SERVICE</h3>
+<p><strong>Peer reviewer (2026):</strong> <em>npj Climate Action</em>; <em>Studies in Higher Education</em></p>
 </section>
 <section id="employment" class="level3">
 <h3 class="anchored" data-anchor-id="employment">EMPLOYMENT</h3>
@@ -464,7 +492,7 @@ Hardaker, A., Asanov, I., Bartoš, F., &amp; Bruns, S. B. PNAS Nexus, 2026; <a h
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/adam-hardaker\.com");
+        var filterRegex = new RegExp("https:\/\/ahrdkr\.com");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
