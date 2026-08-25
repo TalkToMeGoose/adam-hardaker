@@ -22,7 +22,7 @@ format:
 </div>
 
 ### RESEARCH FOCUS
-Causal Machine Learning (Double/Debiased Machine Learning), Bibliometrics, Economics of Innovation and Higher Education, Academic Mobility
+Researcher mobility, Bibliometrics, Economics of Innovation and Higher Education, Causal Machine Learning
 
 ### PUBLICATIONS
 **No evidence that non-incentivized behavioral interventions effectively mitigate climate change after adjusting for publication bias**  
