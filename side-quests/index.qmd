@@ -10,5 +10,5 @@ listing:
 ---
 
 ::: {.page-lede .side-quests-lede}
-Not every worthwhile project belongs in a paper. This is where I keep software, community work, and other practical things that began with “this should exist.”
+Here are some projects I do outside of work to keep life interesting.
 :::
