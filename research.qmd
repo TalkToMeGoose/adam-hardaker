@@ -6,7 +6,7 @@ format:
 ---
 
 ::: {.page-lede .research-lede}
-My main research areas are **researcher mobility** and **metascience**. For this I typically use bibilmetric dataset like SCOPUS, OpenAlex, etc., and replications of primary studies.
+My main research areas are **researcher mobility** and **metascience**. For this I typically use bibliometric dataset like SCOPUS, OpenAlex, etc., and replications of primary studies.
 
 ![](assets/design/research-logit.svg){.research-lede__mark fig-alt="Binary observations and a fitted logistic regression curve"}
 :::
