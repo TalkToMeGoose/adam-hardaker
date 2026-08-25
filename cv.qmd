@@ -85,7 +85,7 @@ Hardaker, A., Asanov, I., Bartoš, F., & Bruns, S. B. PNAS Nexus, 2026; [https:/
 ### OTHER
 
 - **Technical Skills:** R, Python, SQL, FastAPI, Git, Stata, HTML, CSS, JavaScript, Causal Inference, Machine Learning, Statistical Modelling
-- **Languages:** English (Native), German (B2) 
+- **Languages:** English (Native), German (C1) 
 - **Leadership:** President of Rugby Cassel (operations, recruitment, web development)
 - **Independent Project:** Founder & developer of MeetSpace, an event aggregation platform for scalable local discovery. Developed backend with Python, FastAPI & SQLite.
 
