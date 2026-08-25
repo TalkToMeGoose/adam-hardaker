@@ -12,13 +12,13 @@ format:
 :::
 
 ::: {.about-copy}
-I am a doctoral researcher at the University of Kassel's [International Center for Higher Education Research (INCHER)](https://www.uni-kassel.de/forschung/en/incher/), where I study academic mobility, research careers, and the systems that shape knowledge production.
+I am a doctoral researcher at the University of Kassel's [International Center for Higher Education Research (INCHER)](https://www.uni-kassel.de/forschung/en/incher/), where I study researcher mobility and metascience.
 
-My work combines data engineering, econometrics, and machine learning. Much of it involves building large-scale pipelines that link dissertations, publication databases, and institutional records across Europe—then making those messy systems legible enough to study.
+My work combines data engineering, econometrics, and machine learning. Much of it involves building large-scale pipelines that link dissertations, publication databases, and institutional records across Europe. I also look at how our understanding of the knowledge frontier via meta-analyses is shaped by which evidence can be replicated.
 
-Before academia, I spent eight years as a U.S. Army aviation officer and Blackhawk pilot. I later worked at the intersection of research and technology, including building decentralized startup programs at the IOTA Foundation and developing entity-resolution models for million-record datasets. That route was not especially linear, but it left me interested in a consistent set of questions: how complex organizations produce knowledge, how people move through them, and how better data can make their decisions more intelligible.
+Before academia, I spent eight years as a U.S. Army aviation officer and Blackhawk pilot. Later, I worked doing business development for a cryptocurrency foundation, before realizing that I missed academia.
 
-Outside research, I help run [Rugby Cassel](https://rugbycassel.de/) as club president, build small software projects, and occasionally turn “this should exist” into a repository. Those projects live under [Side Quests](side-quests/index.qmd). For research, collaboration, or speaking enquiries, [email me](mailto:adam.hardaker@uni-kassel.de).
+Outside research, can be found hanging out with my family, reading, playing music, or administrating [Rugby Cassel](https://rugbycassel.de/) as club president.
 :::
 
 :::
