@@ -26,11 +26,6 @@
     <circle cx="555" cy="73" r="12"/>
     <circle cx="592" cy="84" r="13"/>
 
-    <!-- A few ambiguous observations around the transition. -->
-    <circle cx="275" cy="238" r="11"/>
-    <circle cx="316" cy="205" r="12"/>
-    <circle cx="353" cy="170" r="11"/>
-    <circle cx="391" cy="137" r="12"/>
   </g>
 
   <!-- A fitted logit curve: p(x) = 1 / (1 + exp(-(b0 + b1*x))). -->
