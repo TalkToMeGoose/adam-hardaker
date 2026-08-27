@@ -331,9 +331,40 @@ Knowledge Production &amp;<br>Research Capacity &amp;<br>Metascience
 </div>
 </header>
 <nav class="quadrant-grid" aria-label="Explore the site">
-<a class="home-quadrant quadrant-about" href="about.html"> <img class="quadrant-art quadrant-art--about" src="assets/design/about-cutout.png" alt="" aria-hidden="true"> <span class="quadrant-label quadrant-label--about">About</span> </a> <a class="home-quadrant quadrant-research" href="research.html"> <img class="quadrant-art quadrant-art--research" src="assets/design/research-logit.svg" alt="" aria-hidden="true"> <span class="quadrant-label quadrant-label--research">Research</span> </a> <a class="home-quadrant quadrant-cv" href="cv.html"> <span class="quadrant-art quadrant-art--uh60" aria-hidden="true"></span> <span class="quadrant-label quadrant-label--cv">C.V.</span> </a> <a class="home-quadrant quadrant-side-quests" href="side-quests/index.html"> <img class="quadrant-art quadrant-art--hercules" src="assets/design/hercules-source.png" alt="" aria-hidden="true"> <span class="quadrant-label quadrant-label--side-quests">Side<br>Quests</span> </a>
+<a class="home-quadrant quadrant-about" href="about.html"> <span class="tile-connectors" aria-hidden="true"><i class="connector-top-left"></i><i class="connector-bottom-left"></i><i class="connector-bottom-right"></i></span> <span class="quadrant-tile"> <img class="quadrant-art quadrant-art--about" src="assets/design/about-cutout.png" alt="" aria-hidden="true"> <span class="quadrant-label quadrant-label--about">About</span> </span> </a> <a class="home-quadrant quadrant-research" href="research.html"> <span class="tile-connectors" aria-hidden="true"><i class="connector-top-left"></i><i class="connector-bottom-left"></i><i class="connector-bottom-right"></i></span> <span class="quadrant-tile"> <img class="quadrant-art quadrant-art--research" src="assets/design/research-logit.svg" alt="" aria-hidden="true"> <span class="quadrant-label quadrant-label--research">Research</span> </span> </a> <a class="home-quadrant quadrant-cv" href="cv.html"> <span class="tile-connectors" aria-hidden="true"><i class="connector-top-left"></i><i class="connector-bottom-left"></i><i class="connector-bottom-right"></i></span> <span class="quadrant-tile"> <span class="quadrant-art quadrant-art--uh60" aria-hidden="true"></span> <span class="quadrant-label quadrant-label--cv">C.V.</span> </span> </a> <a class="home-quadrant quadrant-side-quests" href="side-quests/index.html"> <span class="tile-connectors" aria-hidden="true"><i class="connector-top-left"></i><i class="connector-bottom-left"></i><i class="connector-bottom-right"></i></span> <span class="quadrant-tile"> <img class="quadrant-art quadrant-art--hercules" src="assets/design/hercules-source.png" alt="" aria-hidden="true"> <span class="quadrant-label quadrant-label--side-quests">Side<br>Quests</span> </span> </a>
 </nav>
 </div>
+<script>
+(() => {
+  const quadrants = [...document.querySelectorAll('.home-quadrant')];
+
+  const syncQuadrantTerrain = (quadrant) => {
+    const tile = quadrant.querySelector('.quadrant-tile');
+    const rect = quadrant.getBoundingClientRect();
+    tile.style.setProperty('--terrain-x', `${-rect.left}px`);
+    tile.style.setProperty('--terrain-y', `${-rect.top}px`);
+  };
+
+  const syncTileTerrain = () => quadrants.forEach(syncQuadrantTerrain);
+
+  quadrants.forEach((quadrant) => {
+    quadrant.addEventListener('pointerenter', () => syncQuadrantTerrain(quadrant));
+    quadrant.addEventListener('focusin', () => syncQuadrantTerrain(quadrant));
+  });
+
+  syncTileTerrain();
+  requestAnimationFrame(syncTileTerrain);
+  window.addEventListener('load', syncTileTerrain, { once: true });
+  window.addEventListener('resize', syncTileTerrain, { passive: true });
+  window.addEventListener('scroll', syncTileTerrain, { passive: true });
+  document.fonts?.ready.then(syncTileTerrain);
+
+  const grid = document.querySelector('.quadrant-grid');
+  if (grid && 'ResizeObserver' in window) {
+    new ResizeObserver(syncTileTerrain).observe(grid);
+  }
+})();
+</script>
 
 
 
